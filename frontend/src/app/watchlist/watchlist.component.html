@@ -1,0 +1,19 @@
+
+<div class="watchlist-section">
+  
+    <h2>Watchlist</h2>
+
+    <div class="watchlist-items">
+      <div class="watchlist-item" *ngFor="let item of watchlist">
+        <div class="watchlist-box">
+          <h4>{{ item.Name }}</h4>
+          <span class="description"> {{item.Exchange}}:{{item.Symbol}}</span>
+          <p class="high-price">
+            <span class="big-number">{{ item['52WeekHigh'] }}</span>
+            <span class="currency"> USD</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  <app-search-bar (stockAdded)="handleAddToWatchlist($event)"></app-search-bar>

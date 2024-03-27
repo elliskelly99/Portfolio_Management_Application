@@ -1,0 +1,31 @@
+<div class="search-title">
+  <h3>Search for Stocks</h3>
+</div>
+<div class="search-bar">
+  <input class="search-input" type="text" [(ngModel)]="searchQuery" placeholder="Search stock by ticker...">
+  <button class="search-button" (click)="performSearch()">Search</button>
+</div>
+
+<div *ngIf="showSearchResults" class="search-result">
+  <h2 class="result-header">Results for: {{parsedJson?.['Symbol']}}</h2>
+  <div class="result-item">
+    <div class="result-container">
+      <ul class="result-list">
+        <li><strong>Company:</strong> {{parsedJson?.['Name']}}</li>
+        <li><strong>Currency:</strong> {{parsedJson?.['Currency']}}</li>
+        <li><strong>Price:</strong> ${{parsedJson?.['52WeekHigh']}}</li>
+        <li><strong>Divident Per Share:</strong> {{parsedJson?.['DividendPerShare']}}</li>
+        <li><strong>Exchange:</strong> {{parsedJson?.['Exchange']}}</li>
+        <li><strong>Profit Margin:</strong> {{parsedJson?.['ProfitMargin']}}</li>
+
+
+      </ul>
+    </div>
+</div>
+    <div class="add-button-container">
+      <button (click)="addToWatchlist()" class="button-add">Add to Watchlist</button>
+
+  </div>
+</div>
+
+  

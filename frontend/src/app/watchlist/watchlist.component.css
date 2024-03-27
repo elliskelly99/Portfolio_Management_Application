@@ -1,0 +1,66 @@
+.watchlist-section {
+  flex: 1; 
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 20px;
+ 
+}
+
+  
+app-search-bar {
+  float: right;
+  margin-right: 20px; 
+  padding: 30px;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.watchlist-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.watchlist-item {
+  flex: 0 0 20%; 
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.watchlist-box {
+  background-color: #1559a329;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+
+
+}
+
+.watchlist-box h4 {
+  font-size: 20px;
+}
+
+
+.high-price {
+  align-items: baseline;
+}
+
+.big-number {
+  font-size: 24px; 
+  font-weight: bold;
+  margin-right: 4px; 
+}
+
+.currency {
+  font-size: 14px; 
+  font-weight: lighter;
+}
+
+.description {
+  font-size: 12px;
+  font-weight: lighter;
+  margin: 0; 
+}
+

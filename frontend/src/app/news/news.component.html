@@ -1,0 +1,44 @@
+  <!-- top 3 breaking news -->
+  <!-- Using ? to ensure we are safely accessing data from aysnc object -->
+  <!-- 1. breaking news -->
+  <p class="news-title">1. {{ parsedJson?.feed[0].title }}</p>
+  <a class="news-link" [href]="parsedJson?.feed[0]?.url">Click to visit article</a>
+  <div class="image-container">
+    <img class="news-image" [src]="parsedJson?.feed[0]?.banner_image" alt="Banner Image">
+  </div>
+  
+  <!-- 2. breaking news -->
+  <p class="news-title">2. {{ parsedJson?.feed[1].title }}</p>
+  <a class="news-link" [href]="parsedJson?.feed[1]?.url">Click to visit article</a>
+  <div class="image-container">
+    <img class="news-image" [src]="parsedJson?.feed[1]?.banner_image" alt="Banner Image">
+  </div>
+  
+  <!-- 3. breaking news -->
+  <p class="news-title">3. {{ parsedJson?.feed[2].title }}</p>
+  <a class="news-link" [href]="parsedJson?.feed[2]?.url">Click to visit article</a>
+  <div class="image-container">
+    <img class="news-image" [src]="parsedJson?.feed[2]?.banner_image" alt="Banner Image">
+  </div>
+  
+
+<!-- DUMMY DATA TO AVOID API CALLS -->
+
+  <!--  <h4>1.:  Hibbett, American Software, Ardelyx And Other Big Stocks Moving Higher On Friday - American Software  ( NASDAQ:AMSWA )
+     , Affirm Holdings  ( NASDAQ:AFRM ) </h4>
+  <a href="https://www.benzinga.com/news/23/08/34043905/hibbett-american-software-ardelyx-and-other-big-stocks-moving-higher-on-friday">Click to visit article</a>
+  <img src="https://cdn.benzinga.com/files/images/story/2023/08/25/hibbett_-_logo_0.jpg?width=1200&height=800&fit=crop"
+    alt="Banner Image"
+    class="max-width"> -->
+
+
+<!-- <h4>2. UAW workers overwhelmingly vote to authorize strikes at GM, Ford, Stellantis</h4>
+<a href="https://www.cnbc.com/2023/08/25/uaw-strike-vote-to-authorize.html">Click to visit article</a>
+<img src="https://image.cnbcfm.com/api/v1/image/106163252-1570130333980img-8671.jpg?v=1692975357&w=1920&h=1080"
+alt="Banner Image" class="max-width"> -->
+
+<!-- <h4>3. CubicFarms Announces Further Expansion into International Markets</h4>
+<a href="https://www.newswire.ca/news-releases/cubicfarms-announces-further-expansion-into-international-markets-878895697.html">Click to visit article</a>
+<img src="https://mma.prnewswire.com/media/2194494/CubicFarm_Systems_Corp__CubicFarms_Announces_Further_Expansion_i.jpg?p=facebook"
+  alt="Banner Image" class="max-width">
+ -->
