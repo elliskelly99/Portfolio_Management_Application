@@ -5,7 +5,7 @@
 2. Should have succesful spring terminal is running message
 
 ##__Run FrontEnd__
-* in a seperate terminal  
+__in a seperate terminal__
 1.Install Node.js and npm
 2. Ensure npm install -g @angular/cli
 3. npm install
