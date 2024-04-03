@@ -6,7 +6,7 @@
 
 ##__Run FrontEnd__
 __in a seperate terminal__
-1.Install Node.js and npm
+1. Install Node.js and npm
 2. Ensure npm install -g @angular/cli
 3. npm install
 4. ng serve
