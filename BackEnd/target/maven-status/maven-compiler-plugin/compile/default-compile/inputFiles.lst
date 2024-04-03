@@ -1,0 +1,16 @@
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/entities/Stocks.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/Main.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/service/AlphaVantageServiceImpl.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/dao/WatchlistRepository.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/service/StocksService.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/AppConfig.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/SwaggerConfig.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/entities/Watchlist.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/dao/StocksRepository.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/service/StocksServiceImpl.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/service/WatchlistService.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/service/WatchlistServiceImpl.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/rest/WatchlistController.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/service/AlphaVantageService.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/boot/rest/StocksController.java
+/Users/elliskelly/coding/portfolio_management/BackEnd/src/main/java/com/team/spring/config/CorsConfig.java
